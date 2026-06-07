@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: obsidian-miniapp
+    env: python
+    buildCommand: echo ready
+    startCommand: python app.py
+    plan: free
